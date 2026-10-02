@@ -1,0 +1,4 @@
+[
+  {"split": "dev_seen", "roc_auc": 0.6749, "accuracy": 0.6080, "precision": 0.6889, "recall": 0.3765, "f1": 0.4869},
+  {"split": "test_seen", "roc_auc": 0.7002, "accuracy": 0.6170, "precision": 0.6945, "recall": 0.3898, "f1": 0.4993}
+]

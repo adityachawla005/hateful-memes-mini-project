@@ -1,5 +1,5 @@
 """
-Model 4 — CLIP-based Classifier.   Owner: Member 4.   BEST MODEL.
+Model 4 — CLIP-based Classifier.   Owner: Sahithya Sambhrama (Member 4).   BEST MODEL.
 
 Freeze a pretrained CLIP model, extract image+text embeddings once per split (cached),
 then train a small MLP head on the concatenated L2-normalized embeddings.

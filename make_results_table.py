@@ -19,7 +19,7 @@ DISPLAY = {
     "clip": "CLIP (ViT-B/32)",
     "clip_large": "CLIP (ViT-L/14)",
 }
-ORDER = ["cnn_lstm", "mlp_fusion", "visualbert", "clip", "clip_large"]
+ORDER = ["cnn_lstm", "visualbert", "mlp_fusion", "clip", "clip_large"]
 
 
 def main():

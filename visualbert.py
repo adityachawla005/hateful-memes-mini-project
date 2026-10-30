@@ -1,5 +1,5 @@
 """
-Model 3 — VisualBERT (single-stream vision-language transformer).   Owner: Member 3.
+Model 3 — VisualBERT (single-stream vision-language transformer).   Owner: Aditya Chawla (Member 3).
 
 Classic VisualBERT consumes pre-extracted object-region features. Instead of the brittle
 detectron2 / MMF stack, we extract region features with torchvision's

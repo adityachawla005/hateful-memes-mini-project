@@ -1,5 +1,5 @@
 """
-Model 2 — CNN–LSTM Fusion.   Owner: Member 2.   test_seen ROC-AUC 0.682.
+Model 2 — CNN–LSTM Fusion.   Owner: Sarthak Atrish (Member 2).   test_seen ROC-AUC 0.682.
 
 Two-branch model: a FROZEN ResNet-18 image extractor + a BiLSTM text branch initialised with
 pretrained GloVe-200d embeddings. Freezing the CNN and using GloVe removes the overfitting that

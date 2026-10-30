@@ -6,10 +6,10 @@ families under one common protocol.
 
 | Model | Family | Owner | Script | test_seen ROC-AUC |
 |---|---|---|---|---|
-| CLIP classifier (ViT-L/14) | Contrastive vision–language embeddings | Member 4 | `clip_classifier.py` | ✅ **0.822** (best; ViT-B/32 baseline 0.777) |
-| MLP feature fusion | Classical feature fusion | Member 1 | `mlp_fusion.py` | ✅ **0.700** |
-| CNN–LSTM fusion | CNN + RNN fusion | Member 2 | `cnn_lstm.py` | ✅ **0.682** |
-| VisualBERT | Single-stream VL transformer | Member 3 | `visualbert.py` | ⚙️ in progress (region extraction) |
+| CLIP classifier (ViT-L/14) | Contrastive vision–language embeddings | Sahithya Sambhrama (230911014) | `clip_classifier.py` | ✅ **0.822** (best; ViT-B/32 baseline 0.777) |
+| MLP feature fusion | Classical feature fusion | Parth Khator (230911422) | `mlp_fusion.py` | ✅ **0.700** |
+| CNN–LSTM fusion | CNN + RNN fusion | Sarthak Atrish (230911504) | `cnn_lstm.py` | ✅ **0.682** |
+| VisualBERT | Single-stream VL transformer | Aditya Chawla (230911260) | `visualbert.py` | ⚙️ in progress (region extraction) |
 
 Final comparison and per-model metrics: `results/results.md`. Improvement ablation: CLIP
 ViT-B/32→L/14 (0.777→0.822); MLP +mean-pool/interaction (0.677→0.700); CNN–LSTM +GloVe/frozen

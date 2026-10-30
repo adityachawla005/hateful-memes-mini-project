@@ -1,5 +1,5 @@
 """
-Model 1 — MLP Feature Fusion.   Owner: Member 1.   test_seen ROC-AUC 0.700.
+Model 1 — MLP Feature Fusion.   Owner: Parth Khator (Member 1).   test_seen ROC-AUC 0.700.
 
 Frozen BERT text features (masked MEAN-pool over tokens) ⊕ frozen ResNet-50 image features,
 each projected to a common space and fused as [img, txt, img*txt] before an MLP classifier.

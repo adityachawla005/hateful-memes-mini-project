@@ -9,12 +9,13 @@ families under one common protocol.
 | CLIP classifier (ViT-L/14) | Contrastive vision–language embeddings | Sahithya Sambhrama (230911014) | `clip_classifier.py` | ✅ **0.822** (best; ViT-B/32 baseline 0.777) |
 | MLP feature fusion | Classical feature fusion | Parth Khator (230911422) | `mlp_fusion.py` | ✅ **0.700** |
 | CNN–LSTM fusion | CNN + RNN fusion | Sarthak Atrish (230911504) | `cnn_lstm.py` | ✅ **0.682** |
-| VisualBERT | Single-stream VL transformer | Aditya Chawla (230911260) | `visualbert.py` | ⚙️ in progress (region extraction) |
+| VisualBERT | Single-stream VL transformer | Aditya Chawla (230911260) | `visualbert.py` | ✅ **0.682** |
 
 Final comparison and per-model metrics: `results/results.md`. Improvement ablation: CLIP
 ViT-B/32→L/14 (0.777→0.822); MLP +mean-pool/interaction (0.677→0.700); CNN–LSTM +GloVe/frozen
 backbone (0.600→0.682); cross-modal head on CLIP-B/32 gave no gain — backbone, not fusion, was
-the bottleneck.
+the bottleneck. VisualBERT (0.682) lands near CNN–LSTM, below its literature level, because it
+is fed generic torchvision Faster R-CNN regions rather than the Visual-Genome detectron2 features
 
 Primary metric: **ROC-AUC** (benchmark-consistent). Supplementary: accuracy, precision, recall, F1.
 
